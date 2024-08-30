@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box ;
+}
+.container-sm{
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f 100vh);
+    padding: 10px;
+   
+}
+.todoapp{
+
+    background: hsl(0, 100%, 100%, .67);
+    padding: 40px 30px;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.;
+}
+.todoapp h2{
+    display: flex;
+    color: #002765;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#icontodo{
+    
+}
+.Header{
+    display: flex;
+    align-items:;
+    align-content: ;
+    justify-content: ;
+    justify-items: ;
+}
+.form-control{
+    max-width: 300px;
+}
+.criaTask{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:end;
+}
+.criaTask button{
+    margin-bottom: 10px;
+    
+}

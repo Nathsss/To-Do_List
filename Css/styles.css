@@ -45,20 +45,10 @@ body{
     color: rgb(57, 51, 55);
 }
 .form-control{
-    box-shadow: 0 0 2px rgb(108, 104, 232);
+    box-shadow: 0 0 6px rgb(108, 104, 232);
 }
 #btn1{
     box-shadow: 0 0 1em rgb(108, 104, 232);
-}
-.Header{
-    display: flex;
-    align-items:;
-    align-content: ;
-    justify-content: ;
-    justify-items: ;
-}
-.form-control{
-    max-width: 300px;
 }
 .criaTask{
     display: flex;
@@ -74,23 +64,14 @@ body{
     
 }
 .Cards{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .card{
     margin: 12px;
     box-shadow: inset 0 0 10px rgb(0, 114, 228);
     box-shadow: 0 0 1em rgb(108, 104, 232);
-    max-width: 800px;
-    min-width: 4rem;
-}
-@media (max-width:668px){
-    .Cards{
-        flex-direction: row;
-        justify-content: center;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
 
-    }
 }

@@ -36,7 +36,6 @@ function adicionarDOM(titulo) {
 function apagarTarefa(titulo) {
   listaTarefas = listaTarefas.filter((todo) => todo.titulo !== titulo);
   localStorage.setItem("lista", JSON.stringify(listaTarefas));
-  mostrarCards();1
+  mostrarCards();
 }
 mostrarCards();
-
